@@ -1,5 +1,7 @@
 # Debugging
 
+Testing to see if I can push my changes to the repo
+
 ## Aims
 
 The aims of this lesson are to provide an introduction into debugging code, giving strategies and tooling to make the process educational and efficient.
