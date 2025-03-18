@@ -11,7 +11,7 @@ except FileNotFoundError:
     print("Error: The file 'data.txt' was not found.")
 
 # Exercise 2 Solution:
-# This file will automatically be created in the current directory 
+# This file will automatically be created in the current directory
 # if it does not exist!
 
 lines = [
