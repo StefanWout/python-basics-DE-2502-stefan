@@ -4,6 +4,15 @@ cwd = Path.cwd()
 
 demo_file_path = cwd / 'demo_files' / 'my_data.txt'
 
-file = open(demo_file_path)
+# file = open(demo_file_path)
 
 print(demo_file_path)
+
+try:
+    file = open(demo_file_path)
+except FileNotFoundError as fnf:
+    print(f'FileNotFoundError: {fnf}')
+except Exception as e:
+    print(f'Exception: {e}')
+
+print("Continue the program...")

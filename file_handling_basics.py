@@ -71,4 +71,3 @@ text_file_path = current_dir / TEXT_FILE_NAME
 with open(text_file_path) as text_file:
     for line in text_file:
         print(line.strip())
-
