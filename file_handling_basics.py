@@ -54,14 +54,21 @@ new_directory_path.mkdir(exist_ok=True)
 opened_file = open(file_path)
 # print(opened_file)
 
-with open(file_path) as file:
-    # Do stuff with the file contents
-    print(file.read())
+# with open(file_path) as file:
+#     # Do stuff with the file contents
+#     print(file.read())
 
 # context manager automatically closes the file
 # when the block of code is exited - no more reads allowed
 # print(file.read())
-opened_file = open(file_path)
-print(opened_file.read())
-opened_file.close()
+# opened_file = open(file_path)
 # print(opened_file.read())
+# opened_file.close()
+# print(opened_file.read())
+
+text_file_path = current_dir / TEXT_FILE_NAME
+
+with open(text_file_path) as text_file:
+    for line in text_file:
+        print(line.strip())
+
