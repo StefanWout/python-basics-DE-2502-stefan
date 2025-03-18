@@ -1,1 +1,22 @@
+<<<<<<< HEAD
 {"name": "Alice", "age": 24, "address": {"street": "123 Main St", "city": "Springfield"}, "phone": "555-1234"}
+=======
+[
+    {
+        "name": "Alice",
+        "age": 24,
+        "address": {
+            "street": "123 Fake St",
+            "city": "Springfield"
+        }
+    },
+    {
+        "name": "Bob",
+        "age": 32,
+        "address": {
+            "street": "125 Fake St",
+            "city": "Springfield"
+        }
+    }
+]
+>>>>>>> 27adea5061069fa319e8fa0d49fcdd025aca6fa1
